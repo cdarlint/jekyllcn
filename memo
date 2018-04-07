@@ -1,0 +1,6 @@
+docker build -t jekyllcn .
+docker run --rm -it jekyllcn bash
+jekyll new . --skip-bundle
+bundle install
+gem update
+
